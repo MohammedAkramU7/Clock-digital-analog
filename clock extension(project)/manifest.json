@@ -1,0 +1,35 @@
+{
+    "name": "Digital clock",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action":{
+        "default_popup":"digitalclock.html",
+        "default_icon":"logo.png.png"
+    },
+    "icons":{
+        "128":"logo.png.png"
+    },
+    "permissions": ["identity", "https://accounts.google.com/*",  "https://www.googleapis.com/*"],
+    
+
+"oauth2": {
+   "client_id": "975410329966.apps.googleusercontent.com",
+ "scopes": [
+   "<all urls>",
+   "https://www.googleapis.com/auth/drive",
+   "https://mail.google.com/",
+   "https://www.googleapis.com/auth/gmail.login",
+   "https://www.googleapis.com/auth/gmail.compose",
+   "https://www.googleapis.com/auth/gmail.readonly",
+   "https://www.googleapis.com/auth/gmail.send"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+ 
+}
+
+ 
+
+
+
+
+}
